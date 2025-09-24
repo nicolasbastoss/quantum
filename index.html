@@ -6,20 +6,20 @@
   <title>quantum</title>
   <style>
     body {
-      margin-top: 0; /* removes default white margins */
+      margin: 0;
       background-color: black;
-      display: flex;
-      
+      text-align: center; /* centers inline elements like img */
     }
 
     img {
-      max-width: 100%;  /* image scales down to fit screen */
-      height: auto;     /* maintains aspect ratio */
-      position: fixed;
+      display: block;
+      margin: 20px auto 0 auto; /* centers image + adds space from top */
+      max-width: 90%;  /* makes it responsive */
+      height: auto;    /* keeps aspect ratio */
     }
   </style>
 </head>
 <body>
-  <img src="IMG_0472.jpeg" alt="Responsive image">
+  <img src="IMG_0472.jpeg" alt="Responsive logo">
 </body>
 </html>
